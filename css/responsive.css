@@ -1,0 +1,239 @@
+@media(min-width:992px) and (max-width:1199px){
+/* home page  */
+.header .logo {padding-right: 3%;}
+.header .phone { font-size: 25px; }
+.header .email a { font-size: 25px; }
+.footer_main .block1 .social .fa {width: 40px;height: 40px;margin: 12px 2px;line-height: 40px;font-size: 21px;}
+.slide_bg{min-height:inherit; background: url(../images/slide_bg.jpg) no-repeat center top;}
+
+
+.footer_main .block1 .link a{font-size: 14px;}
+
+/* Pro form */
+.form_details .detail_field .control .input_text.post_code {max-width: 227px;}
+.form_details .detail_field .control .fine_address { margin-top: 0px; }
+
+/* Professional_hire_page */
+.hire_exampal table tr td a { font-size: 15px; padding: 12px 14px; }
+
+
+
+/* student_rental_page */
+.table_option .basic_table .block h2 {font-size: 18px; padding: 16px 0;}
+.table_option .basic_table .block h2 { font-size: 18px; }
+.radio_btn ul li label {font-size: 14px; }
+.table_option .basic_table .block a { left: 11%;font-size: 17px;}
+
+
+
+}
+
+
+@media(min-width:768px) and (max-width:991px){
+.header .logo img {max-width: 62px;}
+.header .logo {padding-right: 3%;}
+.header .mycart {margin: 2px 20px 0 20px; }
+.header .email {margin-top: 4px; padding-left: 3%;}
+.header .phone {margin-top: 5px;}
+.header .phone ,
+.header .email a {font-size: 20px; }
+
+.header .top_cart { margin-top: 4px;}
+.header .top_cart img {max-width: 31px;}
+.header .cart_right { margin-top: 0;    width: 206px;}
+.header .toggle_nav {margin: 9px 0 0 0;}
+.header .toggle_nav img {max-width: 27px;}
+.header .mycart a {font-size: 13px; padding: 6px 11px; }
+  
+ 
+.slide_bg{min-height:inherit; background: url(../images/slide_bg.jpg) no-repeat center top;}
+.product_categories .product_thum p {font-size: 16px; top: 36%; }
+.footer_main .block1.center,
+.footer_main .block1 .social {text-align: left;}
+.footer_main .block1 p { padding-left: 0;}
+
+
+/* Buy-Product-Page */
+.desciption_bg .desciption_block .nav-tabs>li>a { font-size: 15px;}
+.desciption_bg .desciption_block .tab-content p {font-size: 14px; }
+.details_text .product_price {font-size: 20px; }
+.details_text .product_name {font-size: 28px;}
+.details_text .button_area .zero .info{left: -26px;top: -77px;}
+.details_text .button_area .zero span.info:before {content: "\f0d7"; left: 45%; top: 26px;}
+
+
+
+/* filter_categories */
+.right_filter .top_seller_big .seller_product { margin-top: 25px;}
+
+/* Pro form */ 
+.form_details .detail_field .control .fine_address { margin-top: 18px; float:none;}
+.form_details .detail_field .control .clander { max-width: 170px;}
+.form_details .detail_field .control .clander input {max-width: 86px; }
+.form_details .detail_field .control b { width: 40px; }
+
+/* Professional_hire_page */
+.hire_exampal table tr td a { font-size: 14px; padding: 12px 10px; }
+.hire_exampal table tr td {font-size: 13px;     padding: 0 10px; }
+.thankyou h3 {font-size: 15px; line-height: 22px;padding: 0 2em; }
+
+/* student_rental_page */
+.table_option .offer_Text h2 {font-size: 19px; }
+.table_option .basic_table .block h2 {font-size: 18px; padding: 16px 0;}
+.table_option .basic_table .block h2 { font-size: 18px; }
+.radio_btn ul li label {font-size: 14px; }
+.table_option .basic_table .block a {font-size: 14px; width: 125px; left: 14px;}
+.table_option .offer_Text .rent_btn { padding: 12px 19px; }
+
+.pro_banner .pro_main .professional_block .pro_hire p{    min-height: 79px;	}
+
+}
+
+@media (max-width:767px){
+.header .logo img {max-width: 62px;}
+.header .logo {padding-right: 3%;}
+.header .cart_right { width: auto;}
+
+.header .phone {margin-top: 5px;font-size: 0px; margin-top: 0px;padding-left: 0;position: absolute;right: 190px;}
+.header .phone a:before{ content:"\f095";font-family: FontAwesome;font-size: 30px;}	
+
+.header .email {margin-top: 1px;padding-left: 0;position: absolute;right: 146px;}
+.header .email a {font-size:0px; }
+.header .email a:before{ content:"\f003";font-family: FontAwesome;font-size: 27px;}	
+
+.header .mycart {margin: 0px 18px; }
+.header .mycart a:before{ content: "\f2c0";font-family: FontAwesome;font-size: 24px;}	
+.header .mycart a {  font-size: 0;width: auto;font-weight: bold;border: none;padding: 0;border-radius: 0; }
+
+.header .top_cart img {max-width: 33px;}
+.header .toggle_nav img {max-width: 26px;}
+.header .toggle_nav { margin: 7px 0 0 0;}
+
+.header .cart_right { margin-top: 2px;}
+
+
+
+.footer_main .block1 .social {text-align: left;}
+.footer_main .block1.center {text-align: left;} 
+.footer_main .block1 .time{padding-left:10px;}
+.footer_main .block1 .social span{padding-left:10px;}
+ 
+.customers_block h3,
+.product_categories h1 { font-size: 25px; }
+.dilivery_block ul li {font-size: 20px; width: 100%;padding: 5px 0;  border-bottom: solid 1px #5a4234; }
+
+.dilivery_block {padding: 0;margin-bottom: -6px;}
+
+.product_categories .product_thum p {font-size: 14px; top: 42%; }
+
+
+.hire_bg h2 {font-size: 22px; }
+.hire_bg p { font-size: 15px; }
+.slide_bg { min-height: auto;}
+.slide_bg .specialist input[type="text"]{    width: 80%;}
+.slide_bg .specialist { margin: 30px auto;padding: 30px 0px; }
+.slide_bg .specialist h3 {font-size: 17px;}
+
+.customers_block .owl-nav .fa {font-size: 53px; }
+.customers_block .owl-nav {top: 32%;}
+.customers_block .inner_crousel {padding: 0 26px;}
+
+.customers_block .owl-nav .owl-prev {left: -33px;}
+.customers_block .owl-nav .owl-next {right: -33px;}
+.view_btn {font-size: 20px;}
+.slide_bg .specialist input[type="submit"] { height: 44px; width: 131px;font-size: 19px;margin-top: 17px; }
+
+
+/* Buy-Product-Page */
+.desciption_bg .desciption_block .nav-tabs>li>a { font-size: 15px;}
+.desciption_bg .desciption_block .tab-content p {font-size: 14px; }
+.details_text .product_price {font-size: 20px; }
+.details_text .product_name {font-size: 28px;}
+.details_text .size_block select {font-size: 15px;width: 200px; border: solid 2px #000;}
+.details_text .size_block label { font-size: 22px; width: 150px;}
+.details_text .button_area {margin-top: 22px;}
+.details_text .button_area .buy {font-size: 17px;width: 97px; padding: 14px 0; }
+.details_text .button_area b { padding: 0 7px;}
+.details_text .button_area .zero .info{left: -26px;top: -77px;}
+.details_text .button_area .zero span.info:before {content: "\f0d7"; left: 45%; top: 26px;}
+
+/* Filter-Page */
+.left_block { text-align: left;padding: 40px 20px; }
+.product_slide {padding: 11px 0 20px 0;}
+.desciption_bg .desciption_block .nav-tabs>li{    width: 100%;}
+.top_seller_left .seller_product{text-align: center;}
+.top_seller_left .seller_product .product_img {max-width: 268px; }
+.short_by h4{text-align:center; width:100%;}
+.short_by .short_select {width: 100%;text-align: center;margin-top: 16px;}
+.list_banner .specialist input[type="text"] {height: 40px;    width: 90%; }
+.list_banner .specialist input[type="submit"] { height: 40px; width: 159px;font-size: 19px; top: 3px;margin-top: 22px; margin-left: 0;}
+.pagination .Prev{margin-right: 0;}
+.pagination .next{margin-left: 0px;}
+
+/* hire_lp */
+.pro_banner .pro_main h1 {font-size: 22px;}
+.pro_banner .pro_main h6 { font-size: 16px; }
+
+.pro_banner .pro_main .professional_block { margin-top: 10px; display: inline-block;}
+.pro_banner .pro_main .professional_block .pro_hire { margin: 15px; }
+.looking_hire h1 {font-size: 16px !important; }
+.pro_banner .pro_main .professional_block .pro_hire p { font-size: 15px;padding: 20px;}
+.looking_hire .hire_category a span { font-size: 15px; }
+#main{ margin-right: 0px !important;}
+
+/* Pro form */ 
+.form_details .detail_field .control .fine_address { margin-top: 18px; float:none;}
+.form_details .detail_field .progress_bar {max-width: 100%; margin: 1em auto auto auto;}
+.form_details h2 { font-size: 24px; }
+
+.form_details .detail_field .control .clander {display: table;max-width: 100%;width: 100%;}
+.form_details .detail_field .control .clander input {max-width: 97%;display: table-cell;width: 100%;}
+.form_details .detail_field .control .clander:after {font-family: FontAwesome;display: table-cell;}
+.form_details .detail_field .control b { width: 100%;text-align: center;display: inline-block;}
+.form_details .detail_field .control {margin-top: 2em;display: inline-block;width: 100%;}
+.form_details .detail_field .control .select_inst {max-width: 100%;}
+.form_details .detail_field .control label {font-size: 14px; }
+.thankyou h3 {font-size: 15px; padding: 0; }
+.thankyou {margin-top: 26px;}
+
+
+.rental_bg h1 {font-size: 26px; }
+.rental_bg h3 { font-size: 17px; }
+.rental_bg p {text-align: center;font-size: 15px; padding: 0 20px; }
+.work_bg h1 { font-size: 23px;}
+.work_bg .brand img {width: 33%;}
+.hire_exampal h1 { font-size: 26px;padding: 0 0 40px 0; }
+
+
+.form_details .detail_field {padding: 0 20px;}
+.instrument h5 {font-size: 12px; }
+
+
+/* Professional_hire_page */
+.hire_exampal {width: 100%;overflow-x: auto;}
+.hire_exampal table { width: 1000px;overflow-x: auto;}
+.hire_exampal table tr td {font-size: 16px; padding: 0 5px;}
+.table_option h1 { font-size: 25px; }
+.form_radio ul{display:inline-block; width:100%;}
+.why_bg h1 {font-size: 24px; }
+.form_radio ul li { display: inline-block;width: 100%;font-size: 16px; text-align: left;margin-bottom: 20px; max-width:100%;}
+.form_radio ul li .check{ top: 0px;}
+.form_radio {max-width: 300px;margin: auto;}
+
+/* student_rental_page */
+.table_option .basic_table .block {display: inline-block; margin-top: 20px; width:100%;}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
