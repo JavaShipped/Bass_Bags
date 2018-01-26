@@ -1,16 +1,16 @@
 body{padding:0px; margin:0px; }
-table, tr, td, th, h1, h2, h3, h4, h5, h6, div, span, ul, li, ol, a, p{padding:0px; margin:0px;  font-weight:normal; text-decoration:none; outline:none;    font-family: 'Gotham Book';  
+table, tr, td, th, h1, h2, h3, h4, h5, h6, div, span, ul, li, ol, a, p{padding:0px; margin:0px;  font-weight:normal; text-decoration:none; outline:none;    font-family: 'Gotham Book';
 ;
 
 }
 img{border:none;outline:none;max-width: 100%; transition: all 500ms ease 0s;
--o-transition: all 500ms ease 0s; 
+-o-transition: all 500ms ease 0s;
 -ms-transition: all 500ms ease 0s;
 -moz-transition: all 500ms ease 0s;
--khtml-transition: all 500ms ease 0s; 
+-khtml-transition: all 500ms ease 0s;
 -webkit-transition: all 500ms ease 0s;}
 
- 
+
 @font-face {
     font-family: 'Gotham Book';
     src: url('../fonts/Gotham-Book.woff2') format('woff2'),
@@ -19,23 +19,24 @@ img{border:none;outline:none;max-width: 100%; transition: all 500ms ease 0s;
     font-style: normal;
 }
 
+main {width: auto;}
 
 
- 
- 
+
+
 header {    float: left; width: 100%;}
 .header{background:#861d1f; width:100%; padding:10px 0px;}
-.header .logo{ float: left;padding-right: 6%;}
+.header .logo{ float: left;padding-right: 6%; margin-left: 1.5%;}
 .header .logo img{max-width:100px;}
 
-.header .phone  { margin-top: 9px;   float: left;font-size: 30px;color: #FFF;font-weight: bold;} 
-.header .phone  a{  color: #FFF; font-weight: bold; text-decoration:none;} 
+.header .phone  { margin-top: 9px;   float: left;font-size: 30px;color: #FFF;font-weight: bold;}
+.header .phone  a{  color: #FFF; font-weight: bold; text-decoration:none;}
 
 
 .header .email {  margin-top: 9px;   float: left;      padding-left: 5%;}
 .header .email a {display: inline-block;font-size: 30px;color: #FFF;font-weight: bold;    text-decoration: none;}
 
-.header .cart_right { float:right;     width: 236px;   margin-top: 8px;}
+.header .cart_right { float:right;     width: 236px;   margin-top: 8px; margin-right: 1%;}
 
 
 .header .top_cart {    float: left;}
@@ -58,16 +59,16 @@ header {    float: left; width: 100%;}
 .slide_bg .specialist h3{font-size:25px; color:#FFF;   margin-bottom: 20px;}
 .slide_bg .specialist form{ max-width: 400px;margin: auto;}
 
-.slide_bg .specialist input[type="text"] {border: none;height: 53px;width: 383px;border-radius: 5px; padding: 0 10px; color:#000;-o-border-radius: 5px; 
--ms-border-radius: 5px;    
+.slide_bg .specialist input[type="text"] {border: none;height: 53px;width: 383px;border-radius: 5px; padding: 0 10px; color:#000;-o-border-radius: 5px;
+-ms-border-radius: 5px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;}
 .slide_bg .specialist input[type="submit"] {border: none;height: 60px;border-radius: 20px;background: #f0760b;width: 187px;font-size: 23px;margin-top: 22px;
--o-border-radius: 20px;   
+-o-border-radius: 20px;
 -ms-border-radius: 20px;
 -moz-border-radius: 20px;
--khtml-border-radius: 20px; 
+-khtml-border-radius: 20px;
 -webkit-border-radius: 20px;
 }
 .slide_bg .specialist input[type="submit"]:hover{ background: #861d1f;}
@@ -85,7 +86,7 @@ header {    float: left; width: 100%;}
 .customers_block .event_thumb .overlay{background: #FFF;min-height: 250px;display: table;padding: 18px;width: 100%;border-radius: 10px;border: solid #aca596;}
 .customers_block .event_thumb .overlay .text{font-size: 14px;color: #432818;display: table-cell;	vertical-align: middle; height: 250px;}
 .customers_block .event_thumb h4{color: #cdc5b4;font-size: 18px;margin-top: 13px;}
- 
+
 
 
 
@@ -109,19 +110,19 @@ header {    float: left; width: 100%;}
 .product_categories .product_thum p{font-size: 20px;color: #FFF;position: absolute;top: 45%;text-align: center;width: 100%;}
 .product_categories .product_thum a{display:inline-block; text-decoration:none;}
 .product_categories .product_thum a:hover img{opacity:0.3;
--o-opacity:0.3; 
+-o-opacity:0.3;
 -ms-opacity:0.3;
 -moz-opacity:0.3;
--khtml-opacity:0.3; 
+-khtml-opacity:0.3;
 -webkit-opacity:0.3;
 }
 .product_categories .product_thum a:hover p{color:#000;}
 
 .view_btn{background:#f0760b; display:inline-block; color:#FFF !important; font-size:25px; padding:10px 20px; border-radius:15px; text-decoration:none!important; font-family:arial;
--o-border-radius:15px; 
--ms-border-radius:15px; 
+-o-border-radius:15px;
+-ms-border-radius:15px;
 -moz-border-radius:15px;
--khtml-border-radius:15px; 
+-khtml-border-radius:15px;
 -webkit-border-radius:15px;
 }
 .view_btn:hover{background:#861d1f; }
@@ -142,10 +143,10 @@ header {    float: left; width: 100%;}
 .footer_main .block1 .social span{display:inline-block; width:100%;color:#FFF; font-size:15px;}
 .footer_main .block1 .social a{}
 .footer_main .block1 .social .fa{ width: 40px;height: 40px;line-height: 39px;font-size: 21px;border-radius: 50%;margin: 12px 4px; text-align:center;
--o-border-radius: 50%; 
+-o-border-radius: 50%;
 -ms-border-radius: 50%;
 -moz-border-radius: 50%;
--khtml-border-radius: 50%; 
+-khtml-border-radius: 50%;
 -webkit-border-radius: 50%;
 }
 .footer_main .block1 .social .fa-facebook{ background:#3c5a99;}
@@ -174,11 +175,12 @@ text-align: center;  }
 width: 187px;font-size: 23px;position: relative;top: 3px;margin-top: 22px;-o-border-radius: 5px;-ms-border-radius: 5px;
 -moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;display: inline-block;    margin-left: 40px;}
 .list_banner .specialist input[type="submit"]:hover {background: #861d1f;}
+.container {padding: 0;}
+/*.col-sm-4 col-md-3 {width: auto; padding: 0;} */
 
 
 
-
-.left_block {background: #861d1f;text-align: center;padding: 40px 0;display: inline-block;width: 100%;}
+.left_block {background: #861d1f;text-align: center;padding: 40px 0;display: inline-block;width: 100%; height: 105em;}
 .left_block  h3 {color: #cdc5b4;font-weight: normal;font-size: 30px;}
 
 .filter_block{   }
@@ -212,7 +214,7 @@ left: 0; top: 0;
 width: 20px;
 height: 20px;
 border: 2px solid #fff;
-background: #861d1f; 
+background: #861d1f;
 box-shadow: inset 0 1px 3px rgb(0, 0, 0);
 }
 /* checked mark aspect */
@@ -253,7 +255,7 @@ transform: scale(1);
 
 
 .right_filter{}
-.right_filter .top_seller_big{ background: #cdc5b4;padding: 40px 25px 40px 0px; position: relative;}
+.right_filter .top_seller_big{ background: #cdc5b4;padding: 40px 25px 40px 0px; position: relative; margin-right: -1.5%;}
 .top_seller_big:before {content: '';background: #cdc5b4;position: absolute;width: 31px;height: 100%;top: 0;left: -30px;}
 .right_filter .top_seller_big h2 {color: #861d1f;text-align: center;font-size: 30px;font-weight: bold;margin-bottom: 20px;}
 .right_filter .top_seller_big .seller_product {background: #861d1f;display: inline-block;padding-bottom: 5px;}
@@ -263,7 +265,7 @@ transform: scale(1);
 
 .short_by{ width: 100%; display: inline-block; margin: 10px 0;}
 .short_by h4{ float: left;font-size: 16px;font-weight: bold;margin-top: 7px;}
-.short_by .short_select{ float: right;}
+.short_by .short_select{ float: right; margin: 1.5%;}
 .short_by .short_select label{font-weight: normal;font-size: 15px;}
 .short_by .short_select select{padding: 0 13px;height: 34px;font-size: 15px; font-family:arial;}
 
@@ -337,10 +339,10 @@ font-size: 50px;top: -8px;}
 .related_block{margin: 40px 0;}
 .related_block h2{color: #861d1f;font-size: 28px; padding-bottom: 15px;}
 .related_block .related{ border: solid 2px #000; border-radius: 5px;    display: inline-block;
--o-border-radius: 5px; 
+-o-border-radius: 5px;
 -ms-border-radius: 5px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;
 }
 .related_block .related a{width:25%;  float: left;}
@@ -352,10 +354,10 @@ font-size: 50px;top: -8px;}
 .read_bg{background: #861d1f; display:inline-block;width: 100%;}
 .form_details{background: #FFF;
 border: solid #000;padding: 30px 0;
-border-radius: 10px; -o-border-radius: 10px; 
+border-radius: 10px; -o-border-radius: 10px;
 -ms-border-radius: 10px;
 -moz-border-radius: 10px;
--khtml-border-radius: 10px; 
+-khtml-border-radius: 10px;
 -webkit-border-radius: 10px;}
 
 .form_details h2{text-align: center;font-size: 36px;font-weight: bold;color: #861d1f;}
@@ -363,20 +365,20 @@ border-radius: 10px; -o-border-radius: 10px;
 .form_details .detail_field .control{margin-top: 2em;}
 .form_details .detail_field .control label{ font-size: 17px;color: #861d1f;width: 100%;display: inline-block;}
 
-.form_details .detail_field .control .input_text{width: 100%;height: 40px;border: solid 2px #000;border-radius: 5px;-o-border-radius: 5px; 
+.form_details .detail_field .control .input_text{width: 100%;height: 40px;border: solid 2px #000;border-radius: 5px;-o-border-radius: 5px;
 -ms-border-radius: 5px;    font-size: 16px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;}
-.form_details .detail_field .control select{width:100%;height: 40px;border: solid 2px #000;border-radius: 5px;-o-border-radius: 5px; 
+.form_details .detail_field .control select{width:100%;height: 40px;border: solid 2px #000;border-radius: 5px;-o-border-radius: 5px;
 -ms-border-radius: 5px;    font-size: 16px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;}
-.form_details .detail_field .control textarea{width: 100%;height: 150px;border: solid 2px #000;border-radius: 5px;-o-border-radius: 5px; 
+.form_details .detail_field .control textarea{width: 100%;height: 150px;border: solid 2px #000;border-radius: 5px;-o-border-radius: 5px;
 -ms-border-radius: 5px;    font-size: 16px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;}
 .form_details .detail_field .control .select_inst{ max-width: 370px;}
 .form_details .detail_field .control .input_text.post_code{  max-width: 250px;}
@@ -402,10 +404,10 @@ border-radius: 10px; -o-border-radius: 10px;
 .form_details .detail_field .control .fine_address{background: #f0760b; font-family:arial;
 color: #FFF;float: right;
 font-size: 19px;
-border-radius: 5px;-o-border-radius: 5px; 
+border-radius: 5px;-o-border-radius: 5px;
 -ms-border-radius: 5px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;
 border: none;
 height: 40px;
@@ -414,24 +416,24 @@ padding: 0 25px;}
 .form_details .detail_field .control .continue{background: #f0760b; font-family:arial;
 color: #FFF;
 font-size: 19px;
-border-radius: 5px;-o-border-radius: 5px; 
+border-radius: 5px;-o-border-radius: 5px;
 -ms-border-radius: 5px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;
 border: none;
 height: 40px;
 padding: 0 25px;}
 .form_details .detail_field .control .continue:hover{background: #861d1f;}
-.form_details .detail_field .progress_bar{max-width: 400px;margin: 4em auto auto auto; border: solid 2px #000;border-radius: 5px;-o-border-radius: 5px; 
+.form_details .detail_field .progress_bar{max-width: 400px;margin: 4em auto auto auto; border: solid 2px #000;border-radius: 5px;-o-border-radius: 5px;
 -ms-border-radius: 5px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;}
-.form_details .detail_field .progress_bar .progress_bg{ background: #FFF;border: solid #000 2px;margin: 10px 11px;height: 40px;border-radius: 5px;-o-border-radius: 5px; 
+.form_details .detail_field .progress_bar .progress_bg{ background: #FFF;border: solid #000 2px;margin: 10px 11px;height: 40px;border-radius: 5px;-o-border-radius: 5px;
 -ms-border-radius: 5px;
 -moz-border-radius: 5px;
--khtml-border-radius: 5px; 
+-khtml-border-radius: 5px;
 -webkit-border-radius: 5px;}
 .form_details .detail_field .progress_bar .progress_bg .btn{ background: #808080;height: 30px;margin: 3px;width: 15%;border: solid 2px #000;}
 .form_details .detail_field .progress_bar p{font-size: 16px;padding: 24px;text-align: center; color:#861d1f; font-weight:bold;}
@@ -498,10 +500,10 @@ text-align: center;}
 .rental_bg p input {margin: 0 0 0 -18px;}
 .rental_bg p {text-align: left;font-size: 19px;width: 100%;display: inline-block;margin-bottom: 11px;padding: 0 77px;color: #FFF;}
 .rental_bg a.rent_btn { background: #f0760b;color: #FFF;font-size: 20px;padding: 12px 34px;display: inline-block;border-radius: 15px;font-weight: bold;margin-top: 11px;
--o-border-radius:15px; 
--ms-border-radius:15px; 
+-o-border-radius:15px;
+-ms-border-radius:15px;
 -moz-border-radius:15px;
--khtml-border-radius:15px; 
+-khtml-border-radius:15px;
 -webkit-border-radius:15px;
 }
 
@@ -597,10 +599,10 @@ top: 0px;left: 1px;margin: auto;transition: background 0.25s linear;-webkit-tran
 .hire_exampal table tr td {font-size: 20px;background: #FFF;color: #000;    width: 20%;}
 .hire_exampal table tr td.border_right{border-right: solid 2px #000;}
 .hire_exampal table tr td img {max-width: 200px;}
-.hire_exampal table tr td a{background: #f0760b;color: #FFF;padding: 12px 23px;border-radius: 9px; text-decoration:none;-o-border-radius: 9px; 
+.hire_exampal table tr td a{background: #f0760b;color: #FFF;padding: 12px 23px;border-radius: 9px; text-decoration:none;-o-border-radius: 9px;
 -ms-border-radius: 9px;
 -moz-border-radius: 9px; display:inline-block; font-family:arial;
--khtml-border-radius: 9px; 
+-khtml-border-radius: 9px;
 -webkit-border-radius: 9px;}
 
 .hire_exampal .bor_l_r{border-right: solid 2px #000;border-left: solid 2px #000;}
@@ -618,19 +620,19 @@ box-shadow: inherit;
 border: none;
 width: 100%;
 margin-bottom: 10px;}
-.sidenav .dropdown-menu a{color: #ffffff;font-size: 15px;padding-left: 32px; margin-top:5px;} 
+.sidenav .dropdown-menu a{color: #ffffff;font-size: 15px;padding-left: 32px; margin-top:5px;}
 .sidenav .dropdown-menu a:hover{  background: transparent; color:#FFF !important}
 
 .sidenav a:hover {color: #ffffff;}
 .sidenav .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;}
 .main {transition: margin-right .5s; padding: 0px;transition: all 500ms ease 0s;
--o-transition: all 500ms ease 0s; 
+-o-transition: all 500ms ease 0s;
 -ms-transition: all 500ms ease 0s;
 -moz-transition: all 500ms ease 0s;
--khtml-transition: all 500ms ease 0s; 
+-khtml-transition: all 500ms ease 0s;
 -webkit-transition: all 500ms ease 0s;}
 
- 
+
 
 /* NAV BAR END */
 
@@ -666,8 +668,3 @@ margin-top: 16px;font-weight: bold;border: solid 2px;padding: 8px 14px;border-ra
 .looking_hire .close span {color: #FFF;font-size: 38px;}
 
 .looking_hire p a {border: none !important;padding: 0 !important;color: #1d4ce5 !important; background:none !important}
-
-
-
-
-
